@@ -18,7 +18,7 @@ Quiz 26 is a dynamic and interactive quiz application that allows users to **cre
 - **Backend:** Node.js, Express.js  
 - **Database:** MongoDB  
 - **Authentication:** JWT (JSON Web Token)  
-- **Styling:** Tailwind CSS / Material UI  
+- **Styling:** CSS
 
 ## 📜 About This Project  
 
