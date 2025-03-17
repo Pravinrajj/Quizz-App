@@ -1,0 +1,100 @@
+/* .dashboard {
+    text-align: center;
+    padding: 50px 20px;
+  }
+  
+  .options {
+    margin-top: 20px;
+  }
+  
+  .btn {
+    margin: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: white;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .btn:hover {
+    background-color: #0056b3;
+  }
+   */
+
+   body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url("../assets/background.jpg");
+    background-size: 100%;
+}
+
+.header {
+    color: rgb(255, 255, 255);
+    padding: 1rem;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 2rem;
+}
+
+.card {
+    background: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin: 1rem;
+    width: 300px;
+    overflow: hidden;
+    text-align: center;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+.card .icon {
+    font-size: 4rem;
+    color: hsl(0, 0%, 46%);
+    margin: 1rem 0;
+}
+
+.card h3 {
+    margin: 0;
+    padding: 0.5rem 0;
+    color: #333;
+}
+
+.card p {
+    color: #666;
+    font-size: 0.9rem;
+    margin: 0 1rem 1rem;
+}
+
+.card button {
+    background-color: #d06666;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 0.7rem 1.5rem;
+    margin-bottom: 1rem;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background-color 0.3s ease;
+}
+
+.card button:hover {
+    background-color: #a14c4c;
+}
+
+.h1 {
+    font-family: Roboto, Arial, sans-serif;
+}
